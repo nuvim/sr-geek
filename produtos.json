@@ -1,0 +1,1226 @@
+[
+  {
+    "id": 1,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.42 (1).jpeg",
+    "new": "funko-pop-iron-man-001.jpeg",
+    "nome": "Funko Pop Homem de Ferro (Iron Man)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 2,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.42 (2).jpeg",
+    "new": "funko-pop-groot-002.jpeg",
+    "nome": "Funko Pop Groot",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 3,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.42.jpeg",
+    "new": "funko-pop-iron-spider-003.jpeg",
+    "nome": "Funko Pop Homem-Aranha Iron Spider",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 4,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.43 (1).jpeg",
+    "new": "figure-luigi-super-mario-004.jpeg",
+    "nome": "Boneco Colecionável Luigi",
+    "categoria": "Action Figures & Funkos",
+    "preco": 89.9,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 5,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.43 (2).jpeg",
+    "new": "figure-bowser-super-mario-005.jpeg",
+    "nome": "Boneco Colecionável Bowser",
+    "categoria": "Action Figures & Funkos",
+    "preco": 99.9,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 6,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.43 (3).jpeg",
+    "new": "figure-mario-odyssey-006.jpeg",
+    "nome": "Boneco Colecionável Mario Odyssey",
+    "categoria": "Action Figures & Funkos",
+    "preco": 89.9,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 7,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.43.jpeg",
+    "new": "figure-yoshi-super-mario-007.jpeg",
+    "nome": "Boneco Colecionável Yoshi",
+    "categoria": "Action Figures & Funkos",
+    "preco": 89.9,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 8,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.44 (1).jpeg",
+    "new": "figure-donkey-kong-008.jpeg",
+    "nome": "Boneco Colecionável Donkey Kong",
+    "categoria": "Action Figures & Funkos",
+    "preco": 89.9,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 9,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.44 (2).jpeg",
+    "new": "funko-pop-princess-peach-009.jpeg",
+    "nome": "Funko Pop Princesa Peach",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 10,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.44 (3).jpeg",
+    "new": "pelucia-jerry-tom-and-jerry-010.jpeg",
+    "nome": "Pelúcia Jerry Clássica",
+    "categoria": "Pelúcias Geek",
+    "preco": 79.9,
+    "universo": "Tom & Jerry"
+  },
+  {
+    "id": 11,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.44.jpeg",
+    "new": "funko-pop-toad-mario-011.jpeg",
+    "nome": "Funko Pop Toad",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 12,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.45 (1).jpeg",
+    "new": "pelucia-demogorgon-stranger-things-012.jpeg",
+    "nome": "Pelúcia Demogorgon",
+    "categoria": "Pelúcias Geek",
+    "preco": 99.9,
+    "universo": "Stranger Things"
+  },
+  {
+    "id": 13,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.45 (2).jpeg",
+    "new": "pelucia-stitch-disney-013.jpeg",
+    "nome": "Pelúcia Stitch Clássica",
+    "categoria": "Pelúcias Geek",
+    "preco": 89.9,
+    "universo": "Disney"
+  },
+  {
+    "id": 14,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.45 (3).jpeg",
+    "new": "pelucia-patrick-estrela-bob-esponja-014.jpeg",
+    "nome": "Pelúcia Patrick Estrela",
+    "categoria": "Pelúcias Geek",
+    "preco": 89.9,
+    "universo": "Bob Esponja"
+  },
+  {
+    "id": 15,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.45 (4).jpeg",
+    "new": "pelucia-vaporeon-pokemon-015.jpeg",
+    "nome": "Pelúcia Vaporeon",
+    "categoria": "Pelúcias Geek",
+    "preco": 99.9,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 16,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.45.jpeg",
+    "new": "pelucia-squirtle-pokemon-016.jpeg",
+    "nome": "Pelúcia Squirtle",
+    "categoria": "Pelúcias Geek",
+    "preco": 89.9,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 17,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.46 (1).jpeg",
+    "new": "funko-pop-carnage-marvel-017.jpeg",
+    "nome": "Funko Pop Carnificina (Carnage)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 18,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.46 (2).jpeg",
+    "new": "funko-pop-super-saiyan-goku-018.jpeg",
+    "nome": "Funko Pop Super Saiyan Goku com Bastão",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 19,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.46 (3).jpeg",
+    "new": "action-figure-goku-nuvem-voadora-019.jpeg",
+    "nome": "Action Figure Goku Criança na Nuvem Voadora",
+    "categoria": "Action Figures & Funkos",
+    "preco": 139.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 20,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.46.jpeg",
+    "new": "funko-pop-ant-man-marvel-020.jpeg",
+    "nome": "Funko Pop Homem-Formiga (Ant-Man)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 21,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.47 (1).jpeg",
+    "new": "action-figure-goku-crianca-esfera-021.jpeg",
+    "nome": "Action Figure Goku Criança com Esfera do Dragão",
+    "categoria": "Action Figures & Funkos",
+    "preco": 119.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 22,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.47 (2).jpeg",
+    "new": "funko-pop-mr-fantastic-marvel-022.jpeg",
+    "nome": "Funko Pop Sr. Fantástico (Mister Fantastic)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 23,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.47 (3).jpeg",
+    "new": "funko-pop-the-thing-marvel-023.jpeg",
+    "nome": "Funko Pop O Coisa (The Thing)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 24,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.47.jpeg",
+    "new": "action-figure-goku-adulto-nuvem-024.jpeg",
+    "nome": "Action Figure Goku Adulto na Nuvem Voadora",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 25,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.48 (1).jpeg",
+    "new": "funko-pop-human-torch-marvel-025.jpeg",
+    "nome": "Funko Pop Tocha Humana (Human Torch)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 26,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.48 (2).jpeg",
+    "new": "funko-pop-squirtle-pokemon-026.jpeg",
+    "nome": "Funko Pop Squirtle",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 27,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.48 (3).jpeg",
+    "new": "funko-pop-mewtwo-pokemon-027.jpeg",
+    "nome": "Funko Pop Mewtwo",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 28,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.48.jpeg",
+    "new": "funko-pop-invisible-woman-marvel-028.jpeg",
+    "nome": "Funko Pop Mulher Invisível (Invisible Woman)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Marvel"
+  },
+  {
+    "id": 29,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.49 (1).jpeg",
+    "new": "funko-pop-eevee-pokemon-029.jpeg",
+    "nome": "Funko Pop Eevee",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 30,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.49 (2).jpeg",
+    "new": "funko-pop-flareon-pokemon-030.jpeg",
+    "nome": "Funko Pop Flareon",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 31,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.49 (3).jpeg",
+    "new": "funko-pop-bulbasaur-pokemon-031.jpeg",
+    "nome": "Funko Pop Bulbasaur",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 32,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.49 (4).jpeg",
+    "new": "funko-pop-psyduck-pokemon-032.jpeg",
+    "nome": "Funko Pop Psyduck",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 33,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.49.jpeg",
+    "new": "funko-pop-vulpix-pokemon-033.jpeg",
+    "nome": "Funko Pop Vulpix",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 34,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.50 (1).jpeg",
+    "new": "controle-mobile-gamesir-x5-lite-034.jpeg",
+    "nome": "Controle Mobile GameSir X5 Lite Type-C",
+    "categoria": "Acessórios Gamers",
+    "preco": 200,
+    "universo": "Mobile Gaming"
+  },
+  {
+    "id": 35,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.50 (2).jpeg",
+    "new": "headset-gamer-hyperx-cloud-stinger-035.jpeg",
+    "nome": "Headset Gamer HyperX Cloud Stinger Core",
+    "categoria": "Acessórios Gamers",
+    "preco": 219.9,
+    "universo": "PlayStation / PC"
+  },
+  {
+    "id": 36,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.50 (3).jpeg",
+    "new": "funko-pop-grogu-berco-036.jpeg",
+    "nome": "Funko Pop Grogu no Berço Flutuante",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Star Wars"
+  },
+  {
+    "id": 37,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.50 (4).jpeg",
+    "new": "funko-pop-grogu-sopa-037.jpeg",
+    "nome": "Funko Pop Grogu Tomando Sopa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Star Wars"
+  },
+  {
+    "id": 38,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.50.jpeg",
+    "new": "funko-pop-dragonite-pokemon-038.jpeg",
+    "nome": "Funko Pop Dragonite",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 39,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51 (1).jpeg",
+    "new": "caneca-3d-stitch-disney-039.jpeg",
+    "nome": "Caneca 3D Colecionável Stitch",
+    "categoria": "Decoração & Geek",
+    "preco": 89.9,
+    "universo": "Disney"
+  },
+  {
+    "id": 40,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51 (2).jpeg",
+    "new": "suporte-multifuncional-delta-040.jpeg",
+    "nome": "Suporte Multifuncional para Headset e Controles Delta",
+    "categoria": "Acessórios Gamers",
+    "preco": 119.9,
+    "universo": "Gaming"
+  },
+  {
+    "id": 41,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51 (3).jpeg",
+    "new": "mouse-gamer-bmax-x7-041.jpeg",
+    "nome": "Mouse Gamer B-Max X7 RGB 3200 DPI",
+    "categoria": "Acessórios Gamers",
+    "preco": 69.9,
+    "universo": "PC Gaming"
+  },
+  {
+    "id": 42,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51 (4).jpeg",
+    "new": "headphone-gamer-havit-gamenote-042.jpeg",
+    "nome": "Headphone Gamer Havit Gamenote 3.5mm",
+    "categoria": "Acessórios Gamers",
+    "preco": 190,
+    "universo": "Gaming"
+  },
+  {
+    "id": 43,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51 (5).jpeg",
+    "new": "mini-bustos-akatsuki-naruto-043.jpeg",
+    "nome": "Kit Mini Bustos Akatsuki (Deidara, Tobi, Madara)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 129.9,
+    "universo": "Naruto"
+  },
+  {
+    "id": 44,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51 (6).jpeg",
+    "new": "action-figure-denji-chainsaw-man-044.jpeg",
+    "nome": "Action Figure Denji com Pochita e Motosserra",
+    "categoria": "Action Figures & Funkos",
+    "preco": 179.9,
+    "universo": "Chainsaw Man"
+  },
+  {
+    "id": 45,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.51.jpeg",
+    "new": "funko-pop-grogu-forca-045.jpeg",
+    "nome": "Funko Pop Grogu Usando a Força",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Star Wars"
+  },
+  {
+    "id": 46,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.52 (1).jpeg",
+    "new": "action-figure-nezuko-kamado-046.jpeg",
+    "nome": "Action Figure Nezuko Kamado",
+    "categoria": "Action Figures & Funkos",
+    "preco": 169.9,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 47,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.52 (2).jpeg",
+    "new": "figures-birdo-yoshi-kart-047.jpeg",
+    "nome": "Kit 2 Figuras Birdo e Yoshi no Kart",
+    "categoria": "Action Figures & Funkos",
+    "preco": 99.9,
+    "universo": "Super Mario"
+  },
+  {
+    "id": 48,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.52 (3).jpeg",
+    "new": "action-figure-inosuke-sem-mascara-048.jpeg",
+    "nome": "Action Figure Inosuke Hashibira Sem Máscara",
+    "categoria": "Action Figures & Funkos",
+    "preco": 169.9,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 49,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.52 (4).jpeg",
+    "new": "action-figure-inosuke-com-mascara-049.jpeg",
+    "nome": "Action Figure Inosuke Hashibira Com Máscara de Javali",
+    "categoria": "Action Figures & Funkos",
+    "preco": 169.9,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 50,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.52 (5).jpeg",
+    "new": "figure-qposket-rengoku-050.jpeg",
+    "nome": "Figure Q Posket Kyojuro Rengoku",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 51,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.52.jpeg",
+    "new": "figure-qposket-peter-parker-051.jpeg",
+    "nome": "Figure Q Posket Peter Parker Homem-Aranha",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Marvel"
+  },
+  {
+    "id": 52,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.53 (1).jpeg",
+    "new": "figure-qposket-tanjiro-052.jpeg",
+    "nome": "Figure Q Posket Tanjiro Kamado",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 53,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.53 (2).jpeg",
+    "new": "figure-qposket-nezuko-053.jpeg",
+    "nome": "Figure Q Posket Nezuko Kamado",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 54,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.53 (3).jpeg",
+    "new": "figure-qposket-zenitsu-054.jpeg",
+    "nome": "Figure Q Posket Zenitsu Agatsuma",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 55,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.53 (4).jpeg",
+    "new": "painel-pixel-art-goku-055.jpeg",
+    "nome": "Lego / Action Figure em Blocos Magic Block Goku (1328 pcs)",
+    "categoria": "Lego & Magic Block",
+    "preco": 129.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 56,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.53 (5).jpeg",
+    "new": "painel-pixel-art-iron-man-056.jpeg",
+    "nome": "Lego / Action Figure em Blocos Magic Block Homem de Ferro (1311 pcs)",
+    "categoria": "Lego & Magic Block",
+    "preco": 129.9,
+    "universo": "Marvel"
+  },
+  {
+    "id": 57,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.53.jpeg",
+    "new": "action-figure-tanjiro-kamado-057.jpeg",
+    "nome": "Action Figure Tanjiro Kamado com Katana",
+    "categoria": "Action Figures & Funkos",
+    "preco": 169.9,
+    "universo": "Demon Slayer"
+  },
+  {
+    "id": 58,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54 (1).jpeg",
+    "new": "action-figure-zoro-crianca-058.jpeg",
+    "nome": "Action Figure Zoro Criança com Espadas de Madeira",
+    "categoria": "Action Figures & Funkos",
+    "preco": 139.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 59,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54 (2).jpeg",
+    "new": "action-figure-sanji-crianca-059.jpeg",
+    "nome": "Action Figure Sanji Criança Cozinheiro",
+    "categoria": "Action Figures & Funkos",
+    "preco": 139.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 60,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54 (3).jpeg",
+    "new": "action-figure-sabo-crianca-060.jpeg",
+    "nome": "Action Figure Sabo Criança com Cano",
+    "categoria": "Action Figures & Funkos",
+    "preco": 139.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 61,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54 (4).jpeg",
+    "new": "action-figure-luffy-crianca-061.jpeg",
+    "nome": "Action Figure Luffy Criança com Chapéu de Palha",
+    "categoria": "Action Figures & Funkos",
+    "preco": 139.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 62,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54 (5).jpeg",
+    "new": "action-figure-ace-crianca-062.jpeg",
+    "nome": "Action Figure Portgas D. Ace Criança",
+    "categoria": "Action Figures & Funkos",
+    "preco": 139.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 63,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54 (6).jpeg",
+    "new": "action-figure-zoro-wano-ataque-063.jpeg",
+    "nome": "Action Figure Roronoa Zoro Postura de Ataque Wano",
+    "categoria": "Action Figures & Funkos",
+    "preco": 199.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 64,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.54.jpeg",
+    "new": "painel-pixel-art-capitao-america-064.jpeg",
+    "nome": "Lego / Action Figure em Blocos Magic Block Capitão América (1311 pcs)",
+    "categoria": "Lego & Magic Block",
+    "preco": 129.9,
+    "universo": "Marvel"
+  },
+  {
+    "id": 65,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.55 (1).jpeg",
+    "new": "figure-chibi-sanji-sorrindo-065.jpeg",
+    "nome": "Figure Chibi Sanji Sorrindo Sentado",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "One Piece"
+  },
+  {
+    "id": 66,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.55 (2).jpeg",
+    "new": "action-figure-ace-fogo-066.jpeg",
+    "nome": "Action Figure Portgas D. Ace Punhos de Fogo",
+    "categoria": "Action Figures & Funkos",
+    "preco": 189.9,
+    "universo": "One Piece"
+  },
+  {
+    "id": 67,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.55 (3).jpeg",
+    "new": "action-figure-naruto-rasengan-067.jpeg",
+    "nome": "Action Figure Naruto Uzumaki com Rasengan e Pergaminho",
+    "categoria": "Action Figures & Funkos",
+    "preco": 179.9,
+    "universo": "Naruto"
+  },
+  {
+    "id": 68,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.55 (4).jpeg",
+    "new": "action-figure-sasuke-kusanagi-068.jpeg",
+    "nome": "Action Figure Sasuke Uchiha com Espada Kusanagi",
+    "categoria": "Action Figures & Funkos",
+    "preco": 179.9,
+    "universo": "Naruto"
+  },
+  {
+    "id": 69,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.55 (5).jpeg",
+    "new": "action-figure-sasori-marionete-069.jpeg",
+    "nome": "Action Figure Sasori Akatsuki da Areia Vermelha",
+    "categoria": "Action Figures & Funkos",
+    "preco": 189.9,
+    "universo": "Naruto"
+  },
+  {
+    "id": 70,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.55.jpeg",
+    "new": "figure-chibi-zoro-sorrindo-070.jpeg",
+    "nome": "Figure Chibi Zoro Sorrindo Sentado",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "One Piece"
+  },
+  {
+    "id": 71,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.56 (1).jpeg",
+    "new": "action-figure-naruto-sennin-rasenshuriken-071.jpeg",
+    "nome": "Action Figure Naruto Modo Sennin Rasenshuriken",
+    "categoria": "Action Figures & Funkos",
+    "preco": 199.9,
+    "universo": "Naruto"
+  },
+  {
+    "id": 72,
+    "old": "WhatsApp Image 2026-09-12 at 08.21.56.jpeg",
+    "new": "action-figure-obito-uchiha-gunbai-072.jpeg",
+    "nome": "Action Figure Obito Uchiha / Tobi com Gunbai",
+    "categoria": "Action Figures & Funkos",
+    "preco": 199.9,
+    "universo": "Naruto"
+  },
+  {
+    "id": 73,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.43.jpeg",
+    "new": "controle-ps2-analogico-shinka-073.jpeg",
+    "nome": "Controle Analógico Shinka Sh-Ctl-2 para PS2",
+    "categoria": "Acessórios Gamers",
+    "preco": 45,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 74,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.45 (1).jpeg",
+    "new": "figure-qposket-thor-074.jpeg",
+    "nome": "Figure Q Posket Thor - Vingadores",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Marvel"
+  },
+  {
+    "id": 75,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.45.jpeg",
+    "new": "action-figure-thor-stormbreaker-075.jpeg",
+    "nome": "Action Figure Thor com Machado Stormbreaker (Resina)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 65,
+    "universo": "Marvel"
+  },
+  {
+    "id": 76,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (1).jpeg",
+    "new": "jogo-ps4-horizon-zero-dawn-076.jpeg",
+    "nome": "Jogo PS4 Horizon Zero Dawn (Mídia Física)",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 77,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (10).jpeg",
+    "new": "jogo-ps4-god-of-war-3-remaster-077.jpeg",
+    "nome": "Jogo PS4 God of War III Remasterizado Hits",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 78,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (2).jpeg",
+    "new": "jogo-ps4-uncharted-4-078.jpeg",
+    "nome": "Jogo PS4 Uncharted 4: A Thief's End",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 79,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (3).jpeg",
+    "new": "jogo-ps4-ratchet-and-clank-079.jpeg",
+    "nome": "Jogo PS4 Ratchet & Clank",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 80,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (4).jpeg",
+    "new": "jogo-ps4-shadow-of-the-colossus-080.jpeg",
+    "nome": "Jogo PS4 Shadow of the Colossus",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 81,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (5).jpeg",
+    "new": "lote-jogos-ps4-prateleira-081.jpeg",
+    "nome": "Acervo de Jogos Originais PS4 Mídia Física",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 82,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (6).jpeg",
+    "new": "jogo-ps4-horizon-complete-edition-082.jpeg",
+    "nome": "Jogo PS4 Horizon Zero Dawn Complete Edition",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 83,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (7).jpeg",
+    "new": "jogo-ps4-shadow-of-colossus-luva-083.jpeg",
+    "nome": "Jogo PS4 Shadow of the Colossus Edição Luva",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 84,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46 (8).jpeg",
+    "new": "jogo-ps4-pes-2019-084.jpeg",
+    "nome": "Jogo PS4 PES 2019 Pro Evolution Soccer",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 86,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.46.jpeg",
+    "new": "console-playstation-4-slim-1tb-086.jpeg",
+    "nome": "Console Sony PlayStation 4 Slim 1TB + Controle",
+    "categoria": "Games & Consoles",
+    "preco": 1899,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 87,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (1).jpeg",
+    "new": "action-figure-goku-mini-daima-087.jpeg",
+    "nome": "Action Figure Goku Mini - Dragon Ball Daima (Caixa)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 88,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (10).jpeg",
+    "new": "action-figure-goku-ssj-daima-088.jpeg",
+    "nome": "Action Figure Goku Super Saiyan - Dragon Ball Daima (Caixa)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 89,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (11).jpeg",
+    "new": "garrafas-termicas-harry-potter-089.jpeg",
+    "nome": "Kit Garrafas Térmicas Casas de Hogwarts - Harry Potter",
+    "categoria": "Decoração & Geek",
+    "preco": 99.9,
+    "universo": "Harry Potter"
+  },
+  {
+    "id": 90,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (12).jpeg",
+    "new": "pendrive-chaveiro-32gb-masterdrive-090.jpeg",
+    "nome": "Pen Drive Metálico Chaveiro 32GB MasterDrive",
+    "categoria": "Acessórios Gamers",
+    "preco": 39.9,
+    "universo": "Acessórios"
+  },
+  {
+    "id": 91,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (13).jpeg",
+    "new": "cooler-usb-exaustor-ps4-slim-091.jpeg",
+    "nome": "Cooler Fan Exaustor Turbo USB para PS4 Slim",
+    "categoria": "Acessórios Gamers",
+    "preco": 79.9,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 92,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (14).jpeg",
+    "new": "kit-play-and-charge-xbox-360-092.jpeg",
+    "nome": "Kit Bateria e Cabo Play & Charge Xbox 360 Lukton",
+    "categoria": "Acessórios Gamers",
+    "preco": 59.9,
+    "universo": "Xbox"
+  },
+  {
+    "id": 93,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (15).jpeg",
+    "new": "fone-bluetooth-gamer-j60c-093.jpeg",
+    "nome": "Fone de Ouvido Bluetooth Gamer Sem Fio J-60 C",
+    "categoria": "Acessórios Gamers",
+    "preco": 99.9,
+    "universo": "Gaming"
+  },
+  {
+    "id": 94,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (16).jpeg",
+    "new": "suporte-capacete-iron-man-infinity-094.jpeg",
+    "nome": "Suporte Estilizado Capacete Homem de Ferro Infinity",
+    "categoria": "Decoração & Geek",
+    "preco": 129.9,
+    "universo": "Marvel"
+  },
+  {
+    "id": 95,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (17).jpeg",
+    "new": "dock-carregador-duplo-ps4-seisa-095.jpeg",
+    "nome": "Dock Base Carregadora Dupla Controles PS4 Seisa",
+    "categoria": "Acessórios Gamers",
+    "preco": 69.9,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 96,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (18).jpeg",
+    "new": "headset-havit-hv-h2232d-rgb-096.jpeg",
+    "nome": "Headset Gamer Havit Gamenote HV-H2232d RGB",
+    "categoria": "Acessórios Gamers",
+    "preco": 190,
+    "universo": "Gaming"
+  },
+  {
+    "id": 102,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (23).jpeg",
+    "new": "par-joy-con-switch-cinza-102.jpeg",
+    "nome": "Par de Controles Joy-Con Nintendo Switch Cinza",
+    "categoria": "Games & Consoles",
+    "preco": 349.9,
+    "universo": "Nintendo"
+  },
+  {
+    "id": 103,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (24).jpeg",
+    "new": "controle-ps4-dualshock-sunset-orange-103.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Sunset Orange Laranja",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 104,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (25).jpeg",
+    "new": "controle-ps4-dualshock-spiderman-white-104.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Homem-Aranha Teia Branca",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 105,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (26).jpeg",
+    "new": "controle-ps4-dualshock-god-of-war-105.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 God of War Prata",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 106,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (27).jpeg",
+    "new": "controle-ps4-dualshock-titanium-blue-106.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Titanium Blue/Silver",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 107,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (28).jpeg",
+    "new": "controle-ps4-dualshock-camo-green-107.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Camuflado Verde Militar",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 108,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (29).jpeg",
+    "new": "controle-ps4-dualshock-spiderman-red-108.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Marvel Homem-Aranha Vermelho",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 109,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (3).jpeg",
+    "new": "action-figure-glorio-daima-109.jpeg",
+    "nome": "Action Figure Glorio - Dragon Ball Daima (Caixa)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 110,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (30).jpeg",
+    "new": "controle-ps4-dualshock-magma-red-110.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Magma Red Vermelho",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 111,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (31).jpeg",
+    "new": "controle-ps4-dualshock-cyberpunk-2077-111.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Edição Cyberpunk 2077 Amarelo",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 112,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (32).jpeg",
+    "new": "controle-ps4-dualshock-glacier-white-112.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Glacier White Branco",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 113,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (33).jpeg",
+    "new": "controle-ps4-dualshock-jet-black-113.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Jet Black Preto",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 115,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (35).jpeg",
+    "new": "controle-ps4-dualshock-berry-purple-115.jpeg",
+    "nome": "Controle Sem Fio DualShock 4 Berry Purple",
+    "categoria": "Games & Consoles",
+    "preco": 170,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 116,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (36).jpeg",
+    "new": "controle-xbox-series-pulse-red-116.jpeg",
+    "nome": "Controle Sem Fio Xbox Series Pulse Red Vermelho",
+    "categoria": "Games & Consoles",
+    "preco": 429.9,
+    "universo": "Xbox"
+  },
+  {
+    "id": 120,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (4).jpeg",
+    "new": "action-figure-goku-ssj-blue-daima-120.jpeg",
+    "nome": "Action Figure Goku Super Saiyan Blue - Dragon Ball Daima",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 124,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (43).jpeg",
+    "new": "headset-hyperx-stinger-2-core-dtsx-124.jpeg",
+    "nome": "Headset Gamer HyperX Cloud Stinger 2 Core DTS:X",
+    "categoria": "Acessórios Gamers",
+    "preco": 239.9,
+    "universo": "Gaming"
+  },
+  {
+    "id": 125,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (44).jpeg",
+    "new": "funko-pop-seiya-armadura-divina-125.jpeg",
+    "nome": "Funko Pop Seiya de Pégaso Armadura Divina",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Cavaleiros do Zodíaco"
+  },
+  {
+    "id": 126,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (45).jpeg",
+    "new": "funko-pop-shun-andromeda-126.jpeg",
+    "nome": "Funko Pop Shun de Andrômeda",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Cavaleiros do Zodíaco"
+  },
+  {
+    "id": 127,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (46).jpeg",
+    "new": "funko-pop-luffy-gear-5-127.jpeg",
+    "nome": "Funko Pop Monkey D. Luffy Gear 5",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "One Piece"
+  },
+  {
+    "id": 128,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (47).jpeg",
+    "new": "funko-pop-michael-jackson-thriller-128.jpeg",
+    "nome": "Funko Pop Michael Jackson Thriller",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pop Icons"
+  },
+  {
+    "id": 129,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (48).jpeg",
+    "new": "funko-pop-stitch-capsula-espacial-129.jpeg",
+    "nome": "Funko Pop Stitch na Cápsula Espacial",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Disney"
+  },
+  {
+    "id": 130,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (49).jpeg",
+    "new": "funko-pop-vecna-stranger-things-130.jpeg",
+    "nome": "Funko Pop Vecna",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Stranger Things"
+  },
+  {
+    "id": 131,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (5).jpeg",
+    "new": "action-figure-goku-black-rose-131.jpeg",
+    "nome": "Action Figure Goku Black Super Saiyan Rosé Daima",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 132,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (50).jpeg",
+    "new": "funko-pop-dustin-henderson-132.jpeg",
+    "nome": "Funko Pop Dustin Henderson",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Stranger Things"
+  },
+  {
+    "id": 133,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (51).jpeg",
+    "new": "funko-pop-eleven-bandana-133.jpeg",
+    "nome": "Funko Pop Eleven com Bandana",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Stranger Things"
+  },
+  {
+    "id": 134,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (6).jpeg",
+    "new": "action-figure-vegeta-ssj-blue-134.jpeg",
+    "nome": "Action Figure Vegeta Super Saiyan Blue Daima",
+    "categoria": "Action Figures & Funkos",
+    "preco": 149.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 136,
+    "old": "WhatsApp Image 2026-09-12 at 11.14.48 (8).jpeg",
+    "new": "action-figure-goku-instinto-superior-136.jpeg",
+    "nome": "Action Figure Goku Instinto Superior (Ultra Instinct)",
+    "categoria": "Action Figures & Funkos",
+    "preco": 159.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 139,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.58 (1).jpeg",
+    "new": "funko-pop-roronoa-zoro-box-139.jpeg",
+    "nome": "Funko Pop Roronoa Zoro #327 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "One Piece"
+  },
+  {
+    "id": 140,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.58 (2).jpeg",
+    "new": "funko-pop-lord-voldemort-box-140.jpeg",
+    "nome": "Funko Pop Lord Voldemort #06 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Harry Potter"
+  },
+  {
+    "id": 141,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.58 (3).jpeg",
+    "new": "funko-pop-severus-snape-box-141.jpeg",
+    "nome": "Funko Pop Severus Snape #05 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Harry Potter"
+  },
+  {
+    "id": 142,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.58.jpeg",
+    "new": "funko-pop-hermione-granger-box-142.jpeg",
+    "nome": "Funko Pop Hermione Granger #03 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Harry Potter"
+  },
+  {
+    "id": 143,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (1).jpeg",
+    "new": "funko-pop-pikachu-box-143.jpeg",
+    "nome": "Funko Pop Pikachu #353 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Pokémon"
+  },
+  {
+    "id": 147,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (2).jpeg",
+    "new": "funko-pop-hot-ryu-street-fighter-147.jpeg",
+    "nome": "Funko Pop Hot Ryu #91 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Street Fighter"
+  },
+  {
+    "id": 148,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (3).jpeg",
+    "new": "funko-pop-harry-potter-quadribol-148.jpeg",
+    "nome": "Funko Pop Harry Potter Quadribol #08 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Harry Potter"
+  },
+  {
+    "id": 149,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (4).jpeg",
+    "new": "jogo-ps4-ghost-of-tsushima-149.jpeg",
+    "nome": "Jogo PS4 Ghost of Tsushima Mídia Física",
+    "categoria": "Games & Consoles",
+    "preco": 80,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 150,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (5).jpeg",
+    "new": "jogo-ps4-days-gone-150.jpeg",
+    "nome": "Jogo PS4 Days Gone (Lacrado)",
+    "categoria": "Games & Consoles",
+    "preco": 150,
+    "universo": "PlayStation"
+  },
+  {
+    "id": 151,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (6).jpeg",
+    "new": "jogo-ps4-red-dead-redemption-2-151.jpeg",
+    "nome": "Jogo PS4 Red Dead Redemption II (Lacrado)",
+    "categoria": "Games & Consoles",
+    "preco": 160,
+    "universo": "PlayStation / Rockstar"
+  },
+  {
+    "id": 152,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (7).jpeg",
+    "new": "action-figure-kid-buu-dbz-152.jpeg",
+    "nome": "Action Figure Kid Buu Punho Fechado - DBZ",
+    "categoria": "Action Figures & Funkos",
+    "preco": 159.9,
+    "universo": "Dragon Ball"
+  },
+  {
+    "id": 153,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (8).jpeg",
+    "new": "suporte-acrilico-altek-headset-153.jpeg",
+    "nome": "Suporte em Acrílico Transparente Altek",
+    "categoria": "Acessórios Gamers",
+    "preco": 79.9,
+    "universo": "Gaming"
+  },
+  {
+    "id": 154,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59 (9).jpeg",
+    "new": "action-figure-iron-man-aterrissagem-154.jpeg",
+    "nome": "Action Figure Homem de Ferro Aterrissagem Avengers",
+    "categoria": "Action Figures & Funkos",
+    "preco": 189.9,
+    "universo": "Marvel"
+  },
+  {
+    "id": 155,
+    "old": "WhatsApp Image 2026-09-12 at 11.15.59.jpeg",
+    "new": "funko-pop-ryu-street-fighter-155.jpeg",
+    "nome": "Funko Pop Ryu Clássico #137 na Caixa",
+    "categoria": "Action Figures & Funkos",
+    "preco": 50,
+    "universo": "Street Fighter"
+  }
+]

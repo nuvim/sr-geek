@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Completo | Sr. Geek Crateús</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span>📍 Shopping Popular - Setor B, Crateús - CE</span>
+      <span class="divider">|</span>
+      <span><i class="fa-brands fa-whatsapp"></i> Atendimento: (88) 92148-5374</span>
+      <span class="divider">|</span>
+      <span class="highlight-pill"><i class="fa-solid fa-bolt"></i> Peças 100% a pronta entrega!</span>
+    </div>
+  </div>
+
+  <!-- Header / Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Sr. Geek Início">
+        <img src="assets/logo-srgeek.png" alt="Logo Sr. Geek" class="brand-img" onerror="this.src='assets/logo-srgeek-alt.png'">
+        <div class="brand-text">
+          <span class="brand-name">SR. GEEK</span>
+          <span class="brand-sub">GAMES & COLECIONÁVEIS</span>
+        </div>
+      </a>
+
+      <div class="nav-search">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="global-search-input" placeholder="Buscar no site..." aria-label="Buscar produtos">
+          <button type="button" id="clear-search-btn" class="clear-search-btn" aria-label="Limpar busca" style="display:none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="catalogo.html" class="nav-link active">Catálogo</a>
+        <a href="assistencia.html" class="nav-link">Assistência</a>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="cart-btn-trigger" id="cart-toggle-btn" aria-label="Ver Carrinho de Compras">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-badge" id="cart-badge-count">0</span>
+        </button>
+
+        <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-nav" aria-label="Chamar no WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="nav-wa-text">WhatsApp</span>
+        </a>
+
+        <button type="button" class="mobile-toggle" id="mobile-menu-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-section">
+    <div class="container">
+      <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="index.html" itemprop="item"><span itemprop="name"><i class="fa-solid fa-house"></i> Início</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li class="separator"><i class="fa-solid fa-chevron-right"></i></li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <span itemprop="name" class="current">Catálogo da Loja</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Unified Catalog Header -->
+  <section class="catalog-header">
+    <div class="container" data-is-catalog-page="true">
+      <span class="section-tag">CATÁLOGO COMPLETO</span>
+      <h1 class="hero-title" style="margin: 0.5rem 0;">Explore Nosso Multiverso</h1>
+      <p class="section-subtitle" style="margin-bottom: 1.5rem;">Escolha seus itens favoritos, adicione ao carrinho e mande direto pra nossa equipe no Zap!</p>
+
+      <!-- Category Filter Pills -->
+      <div class="filter-pills-row" id="category-pills">
+        <button type="button" class="pill-btn active" data-category="todos">Todos os Produtos</button>
+        <button type="button" class="pill-btn" data-category="Action Figures & Funkos"><i class="fa-solid fa-dragon"></i> Figures & Funkos</button>
+        <button type="button" class="pill-btn" data-category="Games & Consoles"><i class="fa-solid fa-gamepad"></i> Games</button>
+        <button type="button" class="pill-btn" data-category="Acessórios Gamers"><i class="fa-solid fa-headset"></i> Acessórios</button>
+        <button type="button" class="pill-btn" data-category="Pelúcias Geek"><i class="fa-solid fa-ghost"></i> Pelúcias</button>
+        <button type="button" class="pill-btn" data-category="Lego & Magic Block"><i class="fa-solid fa-cubes"></i> Blocos & Lego</button>
+      </div>
+
+      <!-- Advanced Filters Bar -->
+      <div class="catalog-toolbar">
+        <div class="ct-results-info">
+          Mostrando <strong id="visible-count">0</strong> de <strong id="count-all">0</strong> itens
+        </div>
+        
+        <div class="ct-filters" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+          <select class="custom-select" id="universe-select">
+            <option value="todos">Todos os Universos</option>
+            <!-- Preenchido via JS -->
+          </select>
+
+          <select class="custom-select" id="sort-select">
+            <option value="default">Mais Populares</option>
+            <option value="price-asc">Menor Preço</option>
+            <option value="price-desc">Maior Preço</option>
+            <option value="name-asc">Ordem Alfabética</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Main Display -->
+  <section class="catalog-section">
+    <div class="container">
+      <!-- Grid de Produtos -->
+      <div class="products-grid" id="products-grid">
+        <!-- Renderizado dinamicamente via JS -->
+      </div>
+
+      <div class="empty-state" id="empty-results" style="display: none; padding: 4rem 1rem; text-align: center;">
+        <i class="fa-solid fa-box-open" style="font-size: 3rem; color: var(--text-light); margin-bottom: 1rem;"></i>
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 0.5rem;">Nenhum item encontrado</h3>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Tente buscar por outro termo ou remover alguns filtros.</p>
+        <button type="button" class="btn btn-primary" id="btn-reset-filters">Limpar Filtros</button>
+      </div>
+
+      <!-- Carregar Mais -->
+      <div class="load-more-container" id="load-more-wrapper" style="display: none;">
+        <button type="button" class="btn btn-secondary btn-lg" id="btn-load-more">
+          Mostrar Mais Produtos
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-title">Não encontrou o que procurava?</h2>
+        <p class="cta-desc">A gente encomenda pra você! Mande uma mensagem pro nosso WhatsApp informando o jogo, console ou Action Figure que deseja.</p>
+        <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+          <i class="fa-brands fa-whatsapp"></i> Falar com a Loja
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <a href="index.html" class="brand-logo">
+            <img src="assets/sr-geek-logo.png" alt="Sr. Geek Logo" class="logo-img">
+            <div class="brand-text">
+              <span class="brand-name" style="color: #FFFFFF;">SR. GEEK</span>
+            </div>
+          </a>
+          <p class="footer-bio">Sua loja definitiva de games, action figures e colecionáveis em Crateús. Atendimento com transparência e produtos originais de qualidade.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Contato & Local</h4>
+          <ul class="footer-links">
+            <li><i class="fa-solid fa-location-dot" style="width: 20px;"></i> Shopping Popular, Setor B</li>
+            <li><i class="fa-solid fa-map-pin" style="width: 20px;"></i> Crateús - Ceará</li>
+            <li><i class="fa-brands fa-whatsapp" style="width: 20px;"></i> (88) 92148-5374</li>
+            <li><i class="fa-brands fa-instagram" style="width: 20px;"></i> @srgeekcrateus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sr. Geek Games e Colecionáveis. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer do Carrinho -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+    <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title">
+      <div class="cart-drawer-header">
+        <div class="cd-title">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3 id="cart-title">Seu Carrinho</h3>
+          <span class="cart-items-counter" id="cart-items-counter">0 itens</span>
+        </div>
+        <button type="button" class="btn-close-cart" id="btn-close-cart" aria-label="Fechar carrinho">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="cart-drawer-body" id="cart-items-list">
+        <!-- Itens populados por JS -->
+      </div>
+
+      <div class="cart-drawer-footer">
+        <div class="cart-summary-box">
+          <div class="cs-row">
+            <span>Subtotal:</span>
+            <span id="cart-subtotal">R$ 0,00</span>
+          </div>
+          <div class="cs-row total-row">
+            <span>Total:</span>
+            <span class="cart-total-price" id="cart-total-price">R$ 0,00</span>
+          </div>
+        </div>
+        <div class="cart-action-buttons">
+          <button type="button" class="btn btn-primary btn-lg" id="btn-checkout-whatsapp" style="width: 100%; border-radius: var(--radius-pill);">
+            <i class="fa-brands fa-whatsapp"></i> Fechar Pedido via Zap
+          </button>
+          <button type="button" class="btn btn-secondary btn-lg" id="btn-checkout-online" style="width: 100%; border-radius: var(--radius-pill);">
+            <i class="fa-solid fa-credit-card"></i> Pagar Online (Cartão/Pix)
+          </button>
+        </div>
+        <button type="button" class="btn-clear-cart" id="btn-clear-cart">
+          <i class="fa-solid fa-trash-can"></i> Esvaziar Carrinho
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Modais -->
+  <div class="modal-backdrop" id="em-breve-modal-backdrop" style="display: none;">
+    <div class="simple-modal-dialog">
+      <button type="button" class="modal-close-btn" id="btn-close-em-breve-modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="em-breve-content">
+        <i class="fa-solid fa-person-digging em-breve-icon"></i>
+        <h2>Checkout em Manutenção</h2>
+        <p>A funcionalidade de pagamento online automatizado via Pix/Cartão está sendo configurada e estará disponível em breve.</p>
+        <div class="em-breve-highlight">
+          <strong>Por enquanto, finalize pelo WhatsApp!</strong>
+          <br>Enviamos o link de pagamento do MercadoPago ou chave Pix diretamente pra você por lá.
+        </div>
+        <div class="em-breve-actions">
+          <button type="button" class="btn btn-primary btn-lg" id="btn-em-breve-to-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Ir para o WhatsApp
+          </button>
+          <button type="button" class="btn btn-secondary" id="btn-em-breve-close">
+            Entendi
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="product-modal-backdrop" style="display: none;">
+    <div class="product-modal-dialog">
+      <button type="button" class="modal-close-btn" id="btn-close-product-modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="product-modal-content" id="product-modal-content">
+        <!-- Preenchido via JS -->
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Mobile Bottom Sticky Navigation Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Navegação Rápida Mobile">
+    <a href="index.html" class="mbb-item" aria-label="Início">
+      <i class="fa-solid fa-house"></i>
+      <span>Início</span>
+    </a>
+    <a href="catalogo.html" class="mbb-item active" aria-label="Catálogo">
+      <i class="fa-solid fa-store"></i>
+      <span>Catálogo</span>
+    </a>
+    <a href="assistencia.html" class="mbb-item" aria-label="Assistência">
+      <i class="fa-solid fa-wrench"></i>
+      <span>Conserto</span>
+    </a>
+    <button type="button" class="mbb-item mbb-cart-btn" id="mbb-cart-toggle-btn" aria-label="Ver Carrinho">
+      <div class="mbb-cart-icon-wrap">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="mbb-cart-badge" id="mbb-cart-badge-count">0</span>
+      </div>
+      <span>Sacola</span>
+    </button>
+    <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="mbb-item mbb-wa" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Zap</span>
+    </a>
+  </nav>
+
+  <!-- Produtos de Dados -->
+  <script src="products-data.js"></script>
+  <!-- Scripts Principais -->
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sr. Geek | Sua Loja Geek, Colecionáveis & Assistência Gamer em Crateús</title>
+  <meta name="description" content="A melhor loja geek de Crateús-CE. Funkos originais por R$ 50, Action Figures, jogos de PS4 por R$ 80, controles e assistência gamer especializada.">
+  <link rel="icon" type="image/png" href="assets/logo-srgeek.png">
+  
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span><i class="fa-solid fa-location-dot"></i> Shopping Popular - Setor B, Crateús - CE</span>
+      <span class="divider">|</span>
+      <span><i class="fa-brands fa-whatsapp"></i> Atendimento: (88) 92148-5374</span>
+      <span class="divider">|</span>
+      <span class="tag-alert"><i class="fa-solid fa-bolt"></i> Peças 100% a pronta entrega!</span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="nav-brand" aria-label="Sr. Geek Início">
+        <img src="assets/logo-srgeek.png" alt="Logo Sr. Geek" class="brand-img" onerror="this.src='assets/logo-srgeek-alt.png'">
+        <div class="brand-text">
+          <span class="brand-name">SR. GEEK</span>
+          <span class="brand-sub">GAMES & COLECIONÁVEIS</span>
+        </div>
+      </a>
+
+      <!-- Search Bar in Header -->
+      <div class="nav-search">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="global-search-input" placeholder="Buscar Funkos, Action Figures, Games..." aria-label="Buscar produtos">
+          <button type="button" id="clear-search-btn" class="clear-search-btn" aria-label="Limpar busca" style="display:none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="catalogo.html" class="nav-link">Catálogo</a>
+        <a href="assistencia.html" class="nav-link">Assistência</a>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+      </nav>
+
+      <!-- Nav Actions (Cart & WhatsApp) -->
+      <div class="nav-actions">
+        <button type="button" class="cart-btn-trigger" id="cart-toggle-btn" aria-label="Ver Carrinho de Compras">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-badge" id="cart-badge-count">0</span>
+        </button>
+
+        <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-nav" aria-label="Chamar no WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="nav-wa-text">WhatsApp</span>
+        </a>
+
+        <button type="button" class="mobile-toggle" id="mobile-menu-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="pill-dot"></span>
+          <span>ESTOQUE FÍSICO EM CRATEÚS</span>
+        </div>
+        <h1 class="hero-title">
+          O SEU MULTIVERSO <span class="highlight-orange">GEEK & GAMER</span> ESTÁ AQUI!
+        </h1>
+        <p class="hero-desc">
+          Action Figures oficiais, Funkos exclusivos por R$ 50, consoles, jogos em mídia física e assistência técnica especializada. Venha nos visitar no Shopping Popular ou compre online e retire hoje mesmo!
+        </p>
+        <div class="hero-actions">
+          <a href="#categorias-loja" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-bag-shopping"></i> Ver Departamentos
+          </a>
+          <a href="assistencia.html" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-wrench"></i> Assistência Técnica
+          </a>
+        </div>
+        <div class="hero-badges">
+          <div class="h-badge">
+            <i class="fa-solid fa-box-open"></i>
+            <span>+130 Itens em Loja</span>
+          </div>
+          <div class="h-badge">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>Produtos Originais</span>
+          </div>
+          <div class="h-badge">
+            <i class="fa-solid fa-credit-card"></i>
+            <span>Funkos por R$ 50,00!</span>
+          </div>
+        </div>
+
+        
+      </div>
+
+      <!-- Hero Visual (Mascot Stage) -->
+      <div class="hero-visual mascot-stage" id="mascot-stage">
+        <div class="mascot-orbit" aria-hidden="true"></div>
+        <div class="mascot-speech" id="mascot-speech">
+          <span class="speech-title"><i class="fa-solid fa-comment-dots"></i> Olavo diz:</span>
+          <p class="speech-text" id="mascot-speech-text">"Oi! Bem-vindo à Sr. Geek."</p>
+        </div>
+        <img src="assets/mascot-waving.png" id="hero-mascot-img" class="hero-mascot-img" alt="Olavo, mascote da Sr. Geek">
+        <div class="pose-controls" id="pose-controls" aria-label="Escolher pose do Olavo">
+          <button type="button" class="pose-btn active" data-index="0" aria-label="Pose 1: Boas-vindas"></button>
+          <button type="button" class="pose-btn" data-index="1" aria-label="Pose 2: Achados Gamers"></button>
+          <button type="button" class="pose-btn" data-index="2" aria-label="Pose 3: Jogar e Colecionar"></button>
+          <button type="button" class="pose-btn" data-index="3" aria-label="Pose 4: Próximo Item"></button>
+          <button type="button" class="pose-btn" data-index="4" aria-label="Pose 5: Atendimento"></button>
+        </div>
+        <span class="interactive-hint">Mova o mouse ou toque para mudar a pose</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Showcase Section -->
+  <section class="quick-categories-section" id="categorias-loja">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">DEPARTAMENTOS DA LOJA</span>
+        <h2 class="section-title">Escolha uma Categoria</h2>
+        <p class="section-subtitle">Acesse a página dedicada de cada setor da loja física em Crateús.</p>
+      </div>
+
+      <div class="category-cards-grid">
+        <!-- Action Figures & Funkos -->
+        <a href="catalogo.html?categoria=Action%20Figures%20%26%20Funkos" class="cat-card">
+          <div class="cat-icon-box orange">
+            <i class="fa-solid fa-dragon"></i>
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-title">Action Figures & Funkos</h3>
+            <p class="cat-desc">Funkos por R$ 50,00, figures Chibi a R$ 65,00, One Piece, Marvel e Anime.</p>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; font-weight:800; color:var(--color-primary);">Ver Produtos &rarr;</span>
+          </div>
+          <i class="fa-solid fa-chevron-right cat-arrow"></i>
+        </a>
+
+        <!-- Games & Consoles -->
+        <a href="catalogo.html?categoria=Games%20%26%20Consoles" class="cat-card">
+          <div class="cat-icon-box dark">
+            <i class="fa-solid fa-gamepad"></i>
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-title">Games & Consoles</h3>
+            <p class="cat-desc">Jogos PS4 a R$ 80,00, DualShock 4 por R$ 170,00, controle PS2 por R$ 45,00 e consoles.</p>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; font-weight:800; color:var(--color-primary);">Ver Produtos &rarr;</span>
+          </div>
+          <i class="fa-solid fa-chevron-right cat-arrow"></i>
+        </a>
+
+        <!-- Acessórios Gamers -->
+        <a href="catalogo.html?categoria=Acess%C3%B3rios%20Gamers" class="cat-card">
+          <div class="cat-icon-box yellow">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-title">Acessórios Gamers</h3>
+            <p class="cat-desc">Headsets Havit por R$ 190,00, GameSir X5 Lite por R$ 200,00, coolers e suportes.</p>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; font-weight:800; color:var(--color-primary);">Ver Produtos &rarr;</span>
+          </div>
+          <i class="fa-solid fa-chevron-right cat-arrow"></i>
+        </a>
+
+        <!-- Pelúcias Geek -->
+        <a href="catalogo.html?categoria=Pel%C3%BAcias%20Geek" class="cat-card">
+          <div class="cat-icon-box cyan">
+            <i class="fa-solid fa-ghost"></i>
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-title">Pelúcias Geek</h3>
+            <p class="cat-desc">Pokémon, Tom & Jerry, Stranger Things e colecionáveis fofos.</p>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; font-weight:800; color:var(--color-primary);">Ver Produtos &rarr;</span>
+          </div>
+          <i class="fa-solid fa-chevron-right cat-arrow"></i>
+        </a>
+
+        <!-- Lego & Magic Block -->
+        <a href="catalogo.html?categoria=Lego%20%26%20Magic%20Block" class="cat-card">
+          <div class="cat-icon-box green">
+            <i class="fa-solid fa-cubes"></i>
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-title">Lego & Magic Block</h3>
+            <p class="cat-desc">Action figures montáveis em blocos tipo Lego (1300+ peças do Capitão América, Goku e Iron Man).</p>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; font-weight:800; color:var(--color-primary);">Ver Produtos &rarr;</span>
+          </div>
+          <i class="fa-solid fa-chevron-right cat-arrow"></i>
+        </a>
+
+        <!-- Assistência Técnica -->
+        <a href="assistencia.html" class="cat-card">
+          <div class="cat-icon-box red">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-title">Assistência Técnica</h3>
+            <p class="cat-desc">Reparo de analógicos com drift, troca de pasta térmica e manutenção de consoles.</p>
+            <span style="display:inline-block; margin-top:4px; font-size:0.75rem; font-weight:800; color:var(--color-primary);">Pedir Orçamento &rarr;</span>
+          </div>
+          <i class="fa-solid fa-chevron-right cat-arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destaques Rápidos da Loja -->
+  <section class="catalog-section" style="padding: 3.5rem 0;">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">MAIS PROCURADOS</span>
+        <h2 class="section-title">Destaques da Loja</h2>
+        <p class="section-subtitle">Alguns dos itens mais pedidos da semana no Shopping Popular de Crateús.</p>
+      </div>
+
+      <div class="products-grid" id="home-featured-grid">
+        <!-- Populado dinamicamente via main.js -->
+      </div>
+
+      <div style="text-align: center; margin-top: 2.5rem;">
+        <a href="catalogo.html" class="btn btn-primary btn-lg">
+          <i class="fa-solid fa-boxes-stacked"></i> Ver Todo o Catálogo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre Nós & Olavo -->
+  <section class="sobre-section" id="sobre" style="padding: 3.5rem 0; border-top: var(--border-main); background-color: var(--bg-surface);">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-info-col">
+          <span class="section-tag">QUEM SOMOS</span>
+          <h2 class="section-title">A sua loja Geek oficial em Crateús</h2>
+          <p class="sobre-text">
+            Nascida da paixão por games, animes, quadrinhos e colecionáveis, a <strong>Sr. Geek</strong> é o ponto de encontro definitivo dos fãs da cultura pop no Sertão dos Inhamuns. 
+          </p>
+
+          <div class="sobre-card-info">
+            <div class="sci-item">
+              <div class="sci-icon"><i class="fa-solid fa-store"></i></div>
+              <div>
+                <h4>Loja Física em Crateús</h4>
+                <p>Shopping Popular - Setor B (Rua Cel. Totó, 1350 - Fátima II). Venha conferir as peças de perto!</p>
+              </div>
+            </div>
+
+            <div class="sci-item">
+              <div class="sci-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <h4>Horário de Atendimento</h4>
+                <p>Segunda a Sábado: <strong>08:00 às 18:00</strong> | Domingo: Consulte pelo WhatsApp.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boss Showcase Card -->
+        <div class="sobre-right-col">
+          <div class="boss-chair-card">
+            <div class="bcc-badge"><i class="fa-solid fa-users"></i> EQUIPE SR. GEEK</div>
+            <div class="bcc-body">
+              <div class="bcc-img-wrap">
+                <img src="assets/mascot-chair.png" alt="Olavo e a Equipe Sr. Geek" class="boss-chair-photo">
+              </div>
+              <div class="bcc-text">
+                <h4>Atendimento com quem entende</h4>
+                <p>Somos uma equipe de 3 pessoas que respira cultura pop e games. Tire suas dúvidas com a gente, receba fotos em tempo real e reserve seus colecionáveis pelo WhatsApp!</p>
+                <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <i class="fa-brands fa-whatsapp"></i> Falar com a Nossa Equipe no WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <img src="assets/logo-srgeek.png" alt="Sr. Geek Logo" class="footer-logo">
+          <span class="footer-brand-name">SR. GEEK</span>
+        </div>
+        <p class="footer-about">
+          A sua loja definitiva de Action Figures, Funkos colecionáveis, games e assistência técnica especializada em Crateús e Região dos Inhamuns.
+        </p>
+        <div class="footer-social">
+          <a href="https://instagram.com/srgeekcrateus" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Departamentos</h4>
+        <ul class="footer-links">
+          <li><a href="catalogo.html?categoria=Action%20Figures%20%26%20Funkos">Action Figures & Funkos</a></li>
+          <li><a href="catalogo.html?categoria=Games%20%26%20Consoles">Games & Consoles</a></li>
+          <li><a href="catalogo.html?categoria=Acess%C3%B3rios%20Gamers">Acessórios Gamers</a></li>
+          <li><a href="catalogo.html?categoria=Pel%C3%BAcias%20Geek">Pelúcias Geek</a></li>
+          <li><a href="catalogo.html?categoria=Lego%20%26%20Magic%20Block">Lego & Magic Block</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Serviços & Contato</h4>
+        <ul class="footer-links">
+          <li><a href="assistencia.html">Assistência Técnica de Controles</a></li>
+          <li><a href="assistencia.html">Limpeza e Troca de Pasta Térmica</a></li>
+          <li><a href="sobre.html">Retirada no Shopping Popular</a></li>
+          <li><a href="https://wa.me/5588921485374" target="_blank">Falar pelo WhatsApp</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Onde Estamos</h4>
+        <p class="footer-address">
+          Shopping Popular - Setor B<br>
+          Rua Cel. Totó, 1350 - Fátima II<br>
+          Crateús - Ceará<br>
+          WhatsApp: (88) 92148-5374
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container fb-content">
+        <span>&copy; 2026 Sr. Geek Crateús. Todos os direitos reservados.</span>
+        <span>Shopping Popular - Setor B</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer Overlay -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Carrinho de Compras">
+      <div class="cart-drawer-header">
+        <div class="cart-header-title">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Seu Carrinho</h3>
+          <span class="cart-counter-text" id="cart-items-counter">(0 itens)</span>
+        </div>
+        <button type="button" class="btn-close-drawer" id="btn-close-cart" aria-label="Fechar Carrinho">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="cart-drawer-body" id="cart-items-list">
+        <!-- Itens do Carrinho via JS -->
+      </div>
+
+      <div class="cart-drawer-footer">
+        <div class="cart-summary-box">
+          <div class="cart-summary-row">
+            <span>Subtotal:</span>
+            <strong id="cart-subtotal">R$ 0,00</strong>
+          </div>
+          <div class="cart-summary-row delivery-row">
+            <span>Retirada no Shopping Popular:</span>
+            <span class="badge-free">GRÁTIS</span>
+          </div>
+          <div class="cart-summary-row total-row">
+            <span>Total:</span>
+            <strong class="total-value" id="cart-total-price">R$ 0,00</strong>
+          </div>
+        </div>
+
+        <div class="cart-action-buttons">
+          <button type="button" class="btn btn-whatsapp-checkout btn-block" id="btn-checkout-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Finalizar Pedido no WhatsApp
+          </button>
+          <button type="button" class="btn btn-outline btn-block" id="btn-checkout-online">
+            <i class="fa-regular fa-credit-card"></i> Pagar Online (Cartão / Pix)
+          </button>
+        </div>
+
+        <button type="button" class="btn-clear-cart" id="btn-clear-cart">
+          <i class="fa-regular fa-trash-can"></i> Esvaziar Carrinho
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Product Details Quick View Modal -->
+  <div class="modal-backdrop" id="product-modal-backdrop" style="display:none;">
+    <div class="product-modal-dialog">
+      <button type="button" class="modal-close-btn" id="btn-close-product-modal" aria-label="Fechar Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="product-modal-content">
+        <!-- Conteúdo preenchido via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Em Breve Pagamento Online Modal -->
+  <div class="modal-backdrop" id="em-breve-modal-backdrop" style="display:none;">
+    <div class="simple-modal-dialog">
+      <button type="button" class="modal-close-btn" id="btn-close-em-breve-modal" aria-label="Fechar Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="em-breve-content">
+        <div class="em-breve-icon-wrap">
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <h3>Pagamento Direto pelo Site</h3>
+        <p>
+          Nosso gateway de pagamento digital automático está em fase de homologação e estará disponível em breve!
+        </p>
+        <div class="em-breve-notice">
+          <strong>Como comprar agora?</strong><br>
+          Clique no botão abaixo para enviar sua lista pronta direto para nossa equipe pelo WhatsApp. Aceitamos Pix, cartões e dinheiro para retirada imediata no Shopping Popular de Crateús!
+        </div>
+        <div class="em-breve-actions">
+          <button type="button" class="btn btn-whatsapp-checkout btn-block" id="btn-em-breve-to-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Concluir Pedido no WhatsApp
+          </button>
+          <button type="button" class="btn btn-outline btn-block" id="btn-em-breve-close">
+            Continuar Navegando
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Mobile Bottom Sticky Navigation Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Navegação Rápida Mobile">
+    <a href="index.html" class="mbb-item active" aria-label="Início">
+      <i class="fa-solid fa-house"></i>
+      <span>Início</span>
+    </a>
+    <a href="catalogo.html" class="mbb-item" aria-label="Catálogo">
+      <i class="fa-solid fa-store"></i>
+      <span>Catálogo</span>
+    </a>
+    <a href="assistencia.html" class="mbb-item" aria-label="Assistência">
+      <i class="fa-solid fa-wrench"></i>
+      <span>Conserto</span>
+    </a>
+    <button type="button" class="mbb-item mbb-cart-btn" id="mbb-cart-toggle-btn" aria-label="Ver Carrinho">
+      <div class="mbb-cart-icon-wrap">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="mbb-cart-badge" id="mbb-cart-badge-count">0</span>
+      </div>
+      <span>Carrinho</span>
+    </button>
+    <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="mbb-item mbb-wa" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Zap</span>
+    </a>
+  </nav>
+
+  <!-- Scripts -->
+  <script src="products-data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Extras & Arquivos de Desenvolvimento / Originais
+_extras/
+
+# Configurações e Ferramentas Locais
+.agents/
+.vscode/
+.idea/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistência Técnica Gamer | Sr. Geek Crateús</title>
+  <meta name="description" content="Assistência técnica especializada em consoles e controles em Crateús-CE. Troca de analógicos com drift em PS4 e Xbox, limpeza completa e troca de pasta térmica.">
+  <link rel="icon" type="image/png" href="assets/logo-srgeek.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement-bar">
+    <div class="container announcement-content">
+      <span><i class="fa-solid fa-location-dot"></i> Shopping Popular - Setor B, Crateús - CE</span>
+      <span class="divider">|</span>
+      <span><i class="fa-brands fa-whatsapp"></i> Atendimento: (88) 92148-5374</span>
+      <span class="divider">|</span>
+      <span class="tag-alert"><i class="fa-solid fa-bolt"></i> Peças 100% a pronta entrega!</span>
+    </div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Sr. Geek Início">
+        <img src="assets/logo-srgeek.png" alt="Logo Sr. Geek" class="brand-img" onerror="this.src='assets/logo-srgeek-alt.png'">
+        <div class="brand-text">
+          <span class="brand-name">SR. GEEK</span>
+          <span class="brand-sub">GAMES & COLECIONÁVEIS</span>
+        </div>
+      </a>
+
+      <div class="nav-search">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="global-search-input" placeholder="Buscar no site..." aria-label="Buscar produtos">
+          <button type="button" id="clear-search-btn" class="clear-search-btn" aria-label="Limpar busca" style="display:none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Início</a>
+        
+        <a href="catalogo.html" class="nav-link">Catálogo</a>
+        <a href="assistencia.html" class="nav-link active">Assistência</a>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="cart-btn-trigger" id="cart-toggle-btn" aria-label="Ver Carrinho de Compras">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-badge" id="cart-badge-count">0</span>
+        </button>
+
+        <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp-nav" aria-label="Chamar no WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="nav-wa-text">WhatsApp</span>
+        </a>
+
+        <button type="button" class="mobile-toggle" id="mobile-menu-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="breadcrumb-section">
+    <div class="container">
+      <ul class="breadcrumb-list">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Início</a></li>
+        <li class="separator">&gt;</li>
+        <li class="current">Assistência Técnica</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="category-header-banner">
+    <div class="container ch-content">
+      <span class="ch-tag"><i class="fa-solid fa-screwdriver-wrench"></i> LABORATÓRIO ESPECIALIZADO</span>
+      <h1 class="ch-title">Assistência Técnica Gamer</h1>
+      <p class="ch-desc">
+        Seu controle está puxando para o lado (drift) ou o videogame está superaquecendo e fazendo barulho de turbina? Traga seu equipamento para a bancada técnica da <strong>Sr. Geek</strong> no Shopping Popular de Crateús!
+      </p>
+      <div class="ch-badges">
+        <span class="ch-badge"><i class="fa-solid fa-check"></i> Peças e Analógicos Originais</span>
+        <span class="ch-badge"><i class="fa-solid fa-stopwatch"></i> Diagnóstico Rápido</span>
+        <span class="ch-badge"><i class="fa-solid fa-shield-halved"></i> Garantia de Serviço</span>
+      </div>
+    </div>
+  </section>
+
+  <main style="padding: 3.5rem 0 5rem;">
+    <div class="container">
+
+      <!-- Serviços Oferecidos -->
+      <div class="section-head">
+        <span class="section-tag">NOSSOS SERVIÇOS</span>
+        <h2 class="section-title">Manutenções Mais Frequentes</h2>
+        <p class="section-subtitle">Realizamos serviços em consoles Sony PlayStation, Microsoft Xbox e Nintendo.</p>
+      </div>
+
+      <div class="services-cards-grid">
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fa-solid fa-gamepad"></i></div>
+          <h3 class="service-card-title">Reparo de Drift em Controles</h3>
+          <p class="service-card-desc">Substituição do módulo analógico 3D em controles DualShock 4, DualSense, Xbox One/Series e Nintendo Switch Joy-Con com calibração precisa.</p>
+          <span class="service-card-price">Consulte Orçamento</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fa-solid fa-wind"></i></div>
+          <h3 class="service-card-title">Limpeza e Troca de Pasta Térmica</h3>
+          <p class="service-card-desc">Desmontagem completa, higienização do dissipador, cooler e aplicação de pasta térmica de alta condutividade para redução de temperatura e ruído.</p>
+          <span class="service-card-price">Consulte Orçamento</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fa-solid fa-tv"></i></div>
+          <h3 class="service-card-title">Troca de Conector HDMI</h3>
+          <p class="service-card-desc">Substituição de portas HDMI danificadas com solda de precisão profissional para consoles sem sinal de vídeo ou com tela preta.</p>
+          <span class="service-card-price">Consulte Orçamento</span>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3 class="service-card-title">Reparo de Fontes & Placas</h3>
+          <p class="service-card-desc">Diagnóstico elétrico de curtos, fontes que não ligam ou consoles que desligam sozinhos durante a gameplay.</p>
+          <span class="service-card-price">Consulte Orçamento</span>
+        </div>
+      </div>
+
+      <!-- Formulário de Contato / Orçamento -->
+      <div class="assistencia-grid">
+        <div class="assist-info-box">
+          <span class="section-tag">ONDE ENTREGAR</span>
+          <h3>Bancada Física em Crateús</h3>
+          <p>
+            Você pode entregar seu controle ou console diretamente no balcão da Sr. Geek no Shopping Popular de Crateús (Setor B).
+          </p>
+          <ul class="assist-info-list">
+            <li><i class="fa-solid fa-clock"></i> Seg a Sáb: 08h às 18h</li>
+            <li><i class="fa-solid fa-location-dot"></i> Shopping Popular - Setor B</li>
+            <li><i class="fa-brands fa-whatsapp"></i> (88) 92148-5374</li>
+          </ul>
+        </div>
+
+        <div class="assist-form-box">
+          <h3>Solicitar Pré-Orçamento</h3>
+          <p>Preencha os campos abaixo para adiantar seu atendimento direto no WhatsApp da nossa equipe técnica.</p>
+
+          <form id="assist-form" class="assist-form">
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label for="assist-name" class="form-label">Seu Nome:</label>
+              <input type="text" id="assist-name" class="form-input" placeholder="Ex: Lucas Silva" required>
+            </div>
+
+            <div class="form-group" style="margin-bottom:1rem;">
+              <label for="assist-device" class="form-label">Qual o seu aparelho / controle?</label>
+              <input type="text" id="assist-device" class="form-input" placeholder="Ex: Controle DualShock 4 PS4 / Console PS4 Slim" required>
+            </div>
+
+            <div class="form-group" style="margin-bottom:1.5rem;">
+              <label for="assist-problem" class="form-label">Qual o defeito apresentado?</label>
+              <textarea id="assist-problem" class="form-textarea" rows="3" placeholder="Ex: Analógico esquerdo puxando sozinho para cima (drift), ou console esquentando muito rápido..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp-checkout btn-block" style="justify-content:center;">
+              <i class="fa-brands fa-whatsapp"></i> Enviar Mensagem para a Nossa Equipe no WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-brand">
+          <img src="assets/logo-srgeek.png" alt="Sr. Geek Logo" class="footer-logo">
+          <span class="footer-brand-name">SR. GEEK</span>
+        </div>
+        <p class="footer-about">
+          A sua loja definitiva de Action Figures, Funkos colecionáveis, games e assistência técnica especializada em Crateús e Região dos Inhamuns.
+        </p>
+        <div class="footer-social">
+          <a href="https://instagram.com/srgeekcrateus" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Departamentos</h4>
+        <ul class="footer-links">
+          <li><a href="catalogo.html?categoria=Action%20Figures%20%26%20Funkos">Action Figures & Funkos</a></li>
+          <li><a href="catalogo.html?categoria=Games%20%26%20Consoles">Games & Consoles</a></li>
+          <li><a href="catalogo.html?categoria=Acess%C3%B3rios%20Gamers">Acessórios Gamers</a></li>
+          <li><a href="catalogo.html?categoria=Pel%C3%BAcias%20Geek">Pelúcias Geek</a></li>
+          <li><a href="catalogo.html?categoria=Lego%20%26%20Magic%20Block">Lego & Magic Block</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Serviços & Contato</h4>
+        <ul class="footer-links">
+          <li><a href="assistencia.html">Assistência Técnica de Controles</a></li>
+          <li><a href="assistencia.html">Limpeza e Troca de Pasta Térmica</a></li>
+          <li><a href="sobre.html">Retirada no Shopping Popular</a></li>
+          <li><a href="https://wa.me/5588921485374" target="_blank">Falar pelo WhatsApp</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Onde Estamos</h4>
+        <p class="footer-address">
+          Shopping Popular - Setor B<br>
+          Rua Cel. Totó, 1350 - Fátima II<br>
+          Crateús - Ceará<br>
+          WhatsApp: (88) 92148-5374
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container fb-content">
+        <span>&copy; 2026 Sr. Geek Crateús. Todos os direitos reservados.</span>
+        <span>Shopping Popular - Setor B</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer Overlay -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay">
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Carrinho de Compras">
+      <div class="cart-drawer-header">
+        <div class="cart-header-title">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Seu Carrinho</h3>
+          <span class="cart-counter-text" id="cart-items-counter">(0 itens)</span>
+        </div>
+        <button type="button" class="btn-close-drawer" id="btn-close-cart" aria-label="Fechar Carrinho">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="cart-drawer-body" id="cart-items-list"></div>
+      <div class="cart-drawer-footer">
+        <div class="cart-summary-box">
+          <div class="cart-summary-row">
+            <span>Subtotal:</span>
+            <strong id="cart-subtotal">R$ 0,00</strong>
+          </div>
+          <div class="cart-summary-row delivery-row">
+            <span>Retirada no Shopping Popular:</span>
+            <span class="badge-free">GRÁTIS</span>
+          </div>
+          <div class="cart-summary-row total-row">
+            <span>Total:</span>
+            <strong class="total-value" id="cart-total-price">R$ 0,00</strong>
+          </div>
+        </div>
+        <div class="cart-action-buttons">
+          <button type="button" class="btn btn-whatsapp-checkout btn-block" id="btn-checkout-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> Finalizar Pedido no WhatsApp
+          </button>
+          <button type="button" class="btn btn-outline btn-block" id="btn-checkout-online">
+            <i class="fa-regular fa-credit-card"></i> Pagar Online (Cartão / Pix)
+          </button>
+        </div>
+        <button type="button" class="btn-clear-cart" id="btn-clear-cart">
+          <i class="fa-regular fa-trash-can"></i> Esvaziar Carrinho
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+
+  <nav class="mobile-bottom-bar" aria-label="Navegação Rápida Mobile">
+    <a href="index.html" class="mbb-item" aria-label="Início">
+      <i class="fa-solid fa-house"></i>
+      <span>Início</span>
+    </a>
+    <a href="catalogo.html" class="mbb-item" aria-label="Catálogo">
+      <i class="fa-solid fa-store"></i>
+      <span>Catálogo</span>
+    </a>
+    <a href="assistencia.html" class="mbb-item active" aria-label="Assistência">
+      <i class="fa-solid fa-wrench"></i>
+      <span>Conserto</span>
+    </a>
+    <button type="button" class="mbb-item mbb-cart-btn" id="mbb-cart-toggle-btn" aria-label="Ver Carrinho">
+      <div class="mbb-cart-icon-wrap">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="mbb-cart-badge" id="mbb-cart-badge-count">0</span>
+      </div>
+      <span>Carrinho</span>
+    </button>
+    <a href="https://wa.me/5588921485374" target="_blank" rel="noopener noreferrer" class="mbb-item mbb-wa" aria-label="WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Zap</span>
+    </a>
+  </nav>
+
+  <script src="products-data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
